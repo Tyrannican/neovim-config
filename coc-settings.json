@@ -1,5 +1,9 @@
 {
     "explorer.width": 30,
     "explorer.file.showHiddenFiles": true,
-    "explorer.icon.enableNerdfont": true
+    "explorer.icon.enableNerdfont": true,
+
+    // Python
+    "python.linting.flake8Enabled": true
+
 }

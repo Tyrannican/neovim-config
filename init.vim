@@ -3,7 +3,6 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'morhetz/gruvbox'
     Plug 'itchyny/lightline.vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'w0rp/ale'
     Plug 'sheerun/vim-polyglot'
     Plug 'ryanoasis/vim-devicons'
 call plug#end()
@@ -26,12 +25,12 @@ let g:lightline = {
 \ }
 
 " ALE (Asynchronous Lint Engine)
-let g:ale_fixers = {
- \ 'javascript': ['eslint']
- \ }
-let g:ale_sign_error = '❌'
-let g:ale_sign_warning = '⚠️'
-let g:ale_fix_on_save = 1
+" let g:ale_fixers = {
+" \ 'javascript': ['eslint']
+" \ }
+" let g:ale_sign_error = '❌'
+" let g:ale_sign_warning = '⚠️'
+" let g:ale_fix_on_save = 1
 
 " COC
 " " COC extension
