@@ -5,6 +5,7 @@ call plug#begin("~/.config/nvim/plugged")
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'w0rp/ale'
     Plug 'sheerun/vim-polyglot'
+    Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Color Config
