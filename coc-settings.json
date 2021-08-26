@@ -4,6 +4,8 @@
     "explorer.icon.enableNerdfont": true,
 
     // Python
-    "python.linting.flake8Enabled": true
-
+    "python.linting.flake8Enabled": true,
+    
+    // Rust
+    "rust-analyzer.diagnostics.disabled": ["inactive-code"]
 }
